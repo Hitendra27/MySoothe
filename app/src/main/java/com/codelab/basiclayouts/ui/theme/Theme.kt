@@ -82,7 +82,7 @@ fun MySootheTheme(
     content: @Composable() () -> Unit
 ) {
     val colors = if (darkTheme) {
-        DarkColors
+        LightColors
     } else {
         LightColors
     }
